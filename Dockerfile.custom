@@ -1,0 +1,5 @@
+FROM antora/antora
+
+EXPOSE 8080
+
+RUN yarn global add http-server onchange asciidoctor-kroki asciidoctor-emoji
